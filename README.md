@@ -1,49 +1,29 @@
-# Template Repo
+# Project Euler
 
-#### A template development environment using node.js and NPM for ES6 vanilla Javascript projects.
+#### Functional Programming Solutions for Project Euler Programming Problems 
 
 #### By Helen Lehrer
 
+###What is Project Euler?
+
+##Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems.
+
 ## Technologies Used
 
-* Node.js
+* javascript
+* node.js
 * NPM
-* babel/core: ^7.18.6
-* babel/plugin-transform-modules-commonjs: ^7.18.6
-* clean-webpack-plugin: ^4.0.0
-* css-loader: ^3.6.0
-* eslint-webpack-plugin: ^3.2.0
-* file-loader: ^6.2.0
-* html-loader: ^4.1.0
-* html-webpack-plugin: ^5.5.0
 * jest: ^29.0.1
-* style-loader: ^1.3.0
 * webpack: 5.74.0
-* webpack-cli: ^4.10.0
-* webpack-dev-server: 4.10.1
-* bootstrap: ^5.2.0
 * eslint: ^8.23.0
 
 ## Description
 
-Module-Bundler: webpack and webpack-cli
-
-Plugins: babel, clean-webpack, eslint-webpack-plugin, html-webpack-plugin, jest, webpack-dev-server, bootstrap, eslint
-
-Loaders: css-loader, file-loader, html-loader, style-loader
+Question ID's #1,2,3 from the [Project Euler website](https://projecteuler.net/archives)
 
 #### Types of configuration files in this repo:
 
-* .eslintrc: This file holds our ESLint configuration.
-* .babelrc: This file holds our Babel configuration. 
-* webpack.config.js: This will hold our webpack configuration, providing specific instructions on how webpack should process and bundle our source code. 
-
 ## Setup/Installation Requirements
-
-This repo is compatible with Node v16.16.0 and npm v 8.11.0. 
-
-The `name` and `version` of the project at the top of `package.json` must be updated to the current project name and version.
-
 
 #### Enter this command into your terminal to install all dependencies: 
 ```bash
